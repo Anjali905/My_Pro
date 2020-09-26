@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="My_Pro.MainPage">
+
+    <StackLayout>
+        <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="15">
+            <Label Text="Hey , This is my First Mobile Application!" HorizontalTextAlignment="Center" TextColor="White" FontSize="24" FontAttributes="Bold"/>
+        </Frame>
+        <Label Text="Please Go ahead and enter your name and something about yourself!" FontSize="Subtitle" Padding="30,10,30,10" FontAttributes="Italic"/>
+        <Editor Placeholder="Enter your Info here"  HeightRequest="200"/>
+        <Button Text="Save"
+                x:Name="SaveButton"
+                Clicked="SaveButton_Clicked" TextColor="DarkGray" BorderColor="AntiqueWhite" BorderWidth="2" CornerRadius="12" WidthRequest="150" HeightRequest="75"/>
+    </StackLayout>
+
+</ContentPage>
